@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+
+# OS / editor
+.DS_Store
+
+# Eagle runtime state
+window-state.json
+
+# Test output
+tmp/

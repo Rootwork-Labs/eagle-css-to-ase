@@ -1,0 +1,19 @@
+{
+  "id": "ianoff-css-to-ase",
+  "version": "1.0.0",
+  "platform": "all",
+  "arch": "all",
+  "name": "CSS to ASE",
+  "logo": "/css-to-ase.png",
+  "keywords": ["css", "ase", "palette", "affinity", "adobe", "convert", "colors", "swatches"],
+  "main": {
+    "url": "index.html",
+    "width": 640,
+    "minWidth": 520,
+    "height": 480,
+    "minHeight": 360,
+    "frame": false,
+    "vibrancy": true,
+    "resizable": true
+  }
+}

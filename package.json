@@ -1,0 +1,14 @@
+{
+  "name": "eagle-css-to-ase",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Convert CSS palette files to Adobe Swatch Exchange (.ase) for Affinity Designer and other apps",
+  "bin": {
+    "css-to-ase": "./bin/convert-css-to-ase.js"
+  },
+  "scripts": {
+    "test": "node test/convert.test.js && node test/ase-writer.test.js && node test/cli.test.js",
+    "convert": "node bin/convert-css-to-ase.js",
+    "dev": "node scripts/dev-server.mjs"
+  }
+}

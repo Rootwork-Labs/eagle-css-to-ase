@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS to ASE</title>
+    <link rel="stylesheet" href="plugin.css">
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <div class="header-copy">
+          <h1>CSS to ASE</h1>
+          <p>Convert selected CSS palette files into Adobe Swatch Exchange (`.ase`) palettes for Affinity Designer, Illustrator, and other ASE-compatible apps.</p>
+        </div>
+        <button id="closeBtn" type="button" class="ghost">Close</button>
+      </header>
+
+      <section class="toolbar">
+        <button id="refreshBtn" type="button" class="ghost">Refresh selection</button>
+        <button id="convertBtn" type="button" class="primary">Convert selected</button>
+      </section>
+
+      <p id="status" class="status">Loading selection...</p>
+
+      <section id="itemList" class="item-list"></section>
+
+      <section id="results" class="results hidden"></section>
+    </div>
+
+    <script src="parsers/color-utils.js"></script>
+    <script src="parsers/css-palette-parser.js"></script>
+    <script src="lib/css-to-swatches.js"></script>
+    <script src="lib/ase-writer.js"></script>
+    <script src="convert-core.js"></script>
+    <script src="plugin.js"></script>
+  </body>
+</html>
