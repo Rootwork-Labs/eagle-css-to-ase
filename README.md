@@ -29,7 +29,7 @@ css-to-ase path/to/palette.css
 Symlink this repo into Eagle's plugin directory:
 
 ```bash
-ln -sfn "/path/to/eagle-css-to-ase" "$HOME/Library/Application Support/Eagle/Plugins/ianoff-css-to-ase"
+ln -sfn "/path/to/eagle-css-to-ase" "$HOME/Library/Application Support/Eagle/Plugins/css-to-ase"
 ```
 
 Restart Eagle, select one or more `.css` palette files, open **CSS to ASE**, and click **Convert selected**.
