@@ -7,7 +7,7 @@ Includes:
 - **CLI** — convert any CSS file on disk
 - **Eagle plugin** — convert selected library CSS items, write a sidecar `.ase`, and import it into the same folders/tags
 
-Parser support matches [eagle-palette-viewer](../eagle-palette-viewer): design-token ramps (`--color-family-shade`, `--family-shade`), flat exports, and related CSS palette formats.
+Parser support matches [eagle-palette-viewer](https://github.com/Rootwork-Labs/eagle-css-to-ase): design-token ramps (`--color-family-shade`, `--family-shade`), flat exports, and related CSS palette formats.
 
 ## CLI
 
@@ -36,7 +36,7 @@ Restart Eagle, select one or more `.css` palette files, open **CSS to ASE**, and
 
 The plugin writes `{name}.ase` beside each CSS file in the library item folder and imports it into Eagle. If an `.ase` item already exists at that path, it replaces the file in place.
 
-Pair with [eagle-palette-viewer](../eagle-palette-viewer) to preview `.ase` files directly in Eagle.
+Pair with [eagle-palette-viewer](https://github.com/Rootwork-Labs/eagle-css-to-ase) to preview `.ase` files directly in Eagle.
 
 ## Project layout
 
